@@ -7,3 +7,4 @@ numNiv = fNiv.readline()
 # Cerramos el fichero.
 fNiv.close()
 aaaaaa
+aaaaaaaaaaaaa

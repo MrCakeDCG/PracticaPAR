@@ -1,9 +1,14 @@
 # -*- coding: utf -8 -*-
 #Abrimos el fichero
 fNiv = open('niveles.txt', 'r')
+a = 0
 # Mostramos por pantalla lo que leemos desde el fichero
-print ('>>> Lectura de una línea del fichero')
-numNiv = fNiv.readline()
+while(a<1 and a>int(fNiv.readline))
+  print "Elija un nivel entre 1 y "+ fNiv.readline()
+  a = input()
+x=0
+for linea in fNiv
+  dataNiv[x] = linea
+  x =+ 1
 # Cerramos el fichero.
 fNiv.close()
-aaaaaa
